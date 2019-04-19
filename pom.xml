@@ -29,6 +29,7 @@
 		<coteafs.logger.version>1.7.0</coteafs.logger.version>
 		<restassured.version>3.3.0</restassured.version>
 		<jsch.version>0.1.55</jsch.version>
+		<commons.text.version>1.6</commons.text.version>
 	</properties>
 
 	<dependencies>
@@ -37,6 +38,11 @@
 			<artifactId>testng</artifactId>
 			<version>${testng.version}</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-text</artifactId>
+			<version>${commons.text.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.github.wasiqb.coteafs</groupId>
